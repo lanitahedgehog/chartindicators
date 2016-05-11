@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="charts_rise">#32CD32</color>
+    <color name="charts_fall">#FF0000</color>
+    <color name="charts_stick">#888888</color>
+    <color name="charts_labels">#888888</color>
+    <color name="charts_grid">#d4d4d4</color>
+    <color name="charts_back">#FFFFFF</color>
+    <color name="charts_plot">#FFFFFF</color>
+    <color name="charts_stripe">#F2F2F2</color>
+    <color name="dark_navy">#0e5489</color>
+    <color name="demo_price_down">#ab0101</color>
+    <color name="demo_price_up">#01ac68</color>
+</resources>
