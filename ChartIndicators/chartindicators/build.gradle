@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'chart-indicators'
+
+    publishedGroupId = 'com.mobiletradingpartners'
+    libraryName = 'ChartIndicators'
+    artifact = 'chartindicators'
+
+    libraryDescription = 'Let you show candlestick chart and use its data to calculate indicators and show them on UI'
+
+    siteUrl = 'https://github.com/lanitahedgehog/chartindicators'
+    gitUrl = 'https://github.com/lanitahedgehog/chartindicators.git'
+
+    libraryVersion = '0.0.1'
+
+    developerId = 'lanitahedgehog'
+    developerName = 'Svetlana Gutsenko'
+    developerEmail = 'svetlana.gutsenko@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion '23.0.2'
@@ -29,3 +53,6 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
 
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
